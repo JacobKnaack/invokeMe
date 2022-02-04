@@ -1,5 +1,24 @@
 {
-  "dependencies": {
+  "name": "invokeme",
+  "description": "Function deployed to AWS Lambda",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+    "dependencies": {
     "dynamoose": "^2.8.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacobKnaack/invokeMe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JacobKnaack/invokeMe/issues"
+  },
+  "homepage": "https://github.com/JacobKnaack/invokeMe#readme"
 }
